@@ -1,0 +1,23 @@
+#model4 .member {
+  width: 200px;
+  height: 130px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+  position: relative;
+  cursor: pointer;
+  transition: all 1s;
+}
+
+.model-title {
+  text-align: center;
+  font-size: 50px;
+  font-weight: bold;
+}
+
+.members {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}

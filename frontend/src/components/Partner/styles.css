@@ -1,0 +1,6 @@
+.logogrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
+  grid-auto-rows: 75px;
+  grid-gap: 7rem;
+}

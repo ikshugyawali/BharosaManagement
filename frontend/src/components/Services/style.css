@@ -1,0 +1,181 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+.main_services {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-family: sans-serif;
+    flex-wrap: wrap;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.card_services {
+    border-radius: 25px;
+    position: relative;
+    width: 400px;
+    height: 480px;
+    box-shadow: 0 0 13px 0px rgba(0, 0, 0, .3);
+    transition: .5s;
+    overflow: hidden;
+    margin: 1.15rem;
+    background-color: white;
+}
+
+.card_services img {
+    width: 400px;
+    height: 250px;
+    transition: 2.5s;
+}
+
+.card_services .card_services-body {
+    padding: .5rem .85rem 1rem;
+    height: 0;
+}
+
+.card_services .card_services-body h6 {
+    margin: .5rem 0;
+    font-size: 1rem;
+    font-weight: 600;
+    color: #0E1F51;
+    letter-spacing: 3px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.card_services .card_services-body p {
+    text-align: justify;
+    font-size: 1rem;
+    font-weight: 550;
+    line-height: 25px;
+    font-family: 'Poppins', sans-serif;
+    color: #242424;
+}
+
+.card_services .card_services-body div {
+    font-family: 'Poppins', sans-serif;
+    text-align: right;
+    width: 100%;
+}
+
+.card_services .card_services-body div a {
+    position: relative;
+    text-decoration: none;
+    color: #526ffd;
+    padding: .5rem;
+    text-align: center;
+    z-index: 999;
+    font-size: .85rem;
+}
+
+.card_services .card_services-body div a::before {
+    position: absolute;
+    content: '';
+    width: 13px;
+    height: 13px;
+    background: #526ffd;
+    border-radius: 300px;
+    left: -13px;
+    top: 3px;
+    z-index: -1;
+    transition: 2.3s;
+}
+
+.card_services .card_services-body div a:hover {
+    color: #fff;
+}
+
+.card_services .card_services-body div a:hover::before {
+    width: 100%;
+    height: 88%;
+    left: 0;
+}
+
+@media screen and (max-width: 600px) {
+    .main_services {
+        width: 100%;
+    }
+
+    .card_services {
+        width: 100%;
+        height: 480px;
+        margin-top: 25px;
+    }
+
+    .card_services img {
+        width: 100%;
+        height: 220px;
+    }
+
+    .card_services .card_services-body {
+        padding: 1.5rem .85rem 1rem;
+        height: 0;
+    }
+
+    .card_services .card_services-body h6 {
+        margin: .5rem 0;
+        font-size: 1rem;
+        font-weight: 600;
+        color: crimson;
+        letter-spacing: 3px;
+        font-family: 'Poppins', sans-serif;
+    }
+
+    .card_services .card_services-body p {
+        text-align: justify;
+        font-size: 1rem;
+        line-height: 25px;
+        font-family: 'Poppins', sans-serif;
+    }
+
+    .card_services .card_services-body div {
+        font-family: 'Poppins', sans-serif;
+        text-align: right;
+        width: 100%;
+    }
+
+    .card_services .card_services-body div a {
+        position: relative;
+        text-decoration: none;
+        color: #526ffd;
+        padding: .5rem;
+        text-align: center;
+        z-index: 999;
+        font-size: .85rem;
+    }
+
+    .card_services .card_services-body div a::before {
+        position: absolute;
+        content: '';
+        width: 13px;
+        height: 13px;
+        background: #526ffd;
+        border-radius: 300px;
+        left: -13px;
+        top: 3px;
+        z-index: -1;
+        transition: 2.3s;
+    }
+
+    .card_services .card_services-body div a:hover {
+        color: #fff;
+    }
+
+    .card_services .card_services-body div a:hover::before {
+        width: 100%;
+        height: 88%;
+        left: 0;
+    }
+}
+
+@media screen and (min-width: 600px) {
+    .main_services {
+        width: 100%;
+    }
+}
+
+@media only screen and (min-width: 1200px) {
+    .main_services {
+        width: 80%;
+    }
+}

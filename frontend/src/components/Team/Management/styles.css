@@ -1,0 +1,48 @@
+#model4 .member {
+    margin: 20px 15px;
+    width: 350px;
+    height: 490px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    position: relative;
+    cursor: pointer;
+    transition: all 1s;
+    background-color: #e0f8fe;
+}
+
+#model4 .description {
+    width: 350px;
+    height: 300px;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 350px;
+    transition: all 1s;
+    
+    
+}
+
+#model4 img {
+    position: absolute;
+    top: 0;
+}
+
+.model-title {
+    text-align: center;
+    margin: 100px auto auto 0;
+    font-size: 50px;
+    font-weight: bold;
+    
+}
+
+
+
+.members {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
